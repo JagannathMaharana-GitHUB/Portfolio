@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Header {
+    /* border: solid black; */
+    min-height: 150vh;
+    width:100%;
+    background-color:aliceblue;
+    position: relative;
+}
+
+/*----------------nav-links------------------- */
+
+.Header .nav-links {
+    /* border: solid black; */
+    width:100%;
+}
+.Header .nav-links ul {
+    /* border: solid black; */
+    padding-top: 20px;
+    text-align: center;
+}
+.Header .nav-links ul li {
+    /* border: solid black; */
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    background-color: beige;
+
+    padding: 12px;
+}
+.Header .nav-links ul li a {
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 510;
+}
+
+.Header h1 {
+    /* border: solid black; */
+    width:100%;
+    text-align: center;
+    padding-top:20px;
+    font-size: 90px;
+    color: blue;
+}
+
+.Header .Text h3 {
+    width: 100%;
+    text-align: center;
+    padding-top:30px;
+    font-size: 55px;
+}
+
+.Header .Text p {
+    /* border: solid black; */
+    width:100%;
+    text-align: center;
+    padding-top:30px;
+    font-weight:300;
+}
+
+/* ------------------register div--------------------- */
+
+.Header .register {
+    /* border: solid black; */
+    margin-left: 85px;
+    margin-bottom: 450px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.Header .register img{
+    /* border: solid black; */
+    align-items: center;
+    margin-top: 14%;
+    margin-right: 9%;
+    margin-bottom: 25%;
+    width: 500px;
+}
+.Header .register h2{
+    /* border: solid black; */
+    width:max-content;
+    height: max-content;
+    margin-left: 33%;
+    margin-bottom: 7%;
+    color: blueviolet;
+    font-size: 40px;
+}
+
+/* -----------------form area----------------------- */
+
+.Header .register .credentials {
+    /* border:solid black 1px; */
+    width:35%;
+    margin-left:4%;
+    margin-top: 5%;
+    margin-bottom: 17%;
+    box-shadow: 
+    rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius:10px;
+    padding:30px 30px 1px 30px;
+}
+.Header .register .credentials input {
+    width:95%;
+    padding: 5px;
+    padding-left: 10px;
+    margin:5px 30px 10px 0px;
+    border-radius: 20px;
+    border-color:cornflowerblue;
+    box-shadow: 
+    rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, 
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.Header .register .credentials label {
+    /* border: solid black; */
+    font-size: bold;
+    padding: 5px;
+    color: darkblue;
+}
+.Header .register .credentials .click {
+    /* border: solid black; */
+    width: 20%;
+    width: max-content;
+    padding: 15px;
+    margin-left: 160px;
+}
+.Header .register .credentials .click button {
+    width: 120px;
+    padding: 9px;
+    background-color:blueviolet;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+/* ----------------------footer-------------------------- */
+
+.Header .footer {
+    /* border: solid black; */
+    width:100%;
+    margin-top: -35%;
+    background-color:aliceblue;
+    position: relative;
+}
+.Header .footer h3 {
+    text-align: center;
+}
+.Header .footer ul {
+    /* border: solid black; */
+    width:max-content;
+    display: flex;
+    margin-left: 678px;
+    position: relative;
+    
+}
+.Header .footer ul li {
+    list-style: none;
+    justify-content: space-between;
+    margin: 8.5px;
+    font-size: 30px;
+}
+.Header .footer ul li a {
+        text-decoration: none;
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio</title>
+    
+    <!-- links for Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- external linking of style-sheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- -------------nav section--------------- -->
+    <nav id="desktop-nav">
+        <div class="logo">My Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+<!-- ------------Profile section------------ -->
+
+    <section id="profile">
+
+        <div class="section__pic-container">
+
+            <img src="images/profilePhoto.png" alt="Jagannath Maharana Profile Pic">
+
+        </div>
+
+        <div class="section__text">
+            
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Jagannath Maharana</h1>
+            <p class="section__text__p2">Frontend web Developer</p>
+            
+            <div class="btn-container">
+
+                <button 
+                    class="btn btn-color-2" 
+                    onclick="window.open('#resume')">
+                    Download resume
+                </button>
+
+                <button 
+                    class="btn btn-color-1"
+                    onclick="location.href='./#contact'">
+                    Contact Info
+                    
+                </button>
+
+            </div>
+
+             <div id="socials-container">
+
+                <img src="images/linkedIn.png" alt="My linkedin" class="icon">
+                <img src="images/github.png" alt="my github" class="icon">
+
+            </div>
+
+        </div>
+    </section>
+<!-- -----------about section--------------- -->
+    <section id="about">
+
+        <div>
+            <p class="section__text__p1">Get to know Here</p>
+            <h1 class="title">About Me</h1>
+        </div>
+
+        <div class="section-container">
+
+            <div class="section__pic-container">
+                <img class="about-pic" src="images/aboutMeImg.jpg" alt="About Us image">
+            </div>
+
+            <div class="about-details-container">
+
+                <div class="about-containers">
+
+                    <div class="details-container">
+                        <img class="icon" src="images/education.png" alt="Education icon">
+                        <h3>Education</h3>
+                        <p>- Under-graduate <br>- B.Tech from PMEC, Bramhapur</p>
+                    </div>
+                    <div class="details-container">
+                        <img class="icon" src="images/experience.png" alt="Education icon">
+                        <h3>Experience</h3>
+                        <p>- Python, C & Java programmer <br>- Frontend web Developer</p>
+                    </div>
+
+                </div>
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure nostrum vero a cupiditate, sapiente asperiores,natus delectus eligendi inventore nostrum voluptatibus ullam deserunt magnam?
+                        <br> Sit, architecto atque. Impedit perspiciatis reprehenderit, eligendi quasi autem rem magnam praesentium ea omnis, eum <br>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <img class="icon scroll" src="images/scrollarrow.png" alt="scroll Icon" onclick="location.href='./#experience'">
+    </section>
+<!-- -----------experience section---------- -->
+    <section id="experience">
+        <div>
+            <p class="section__text__p1">explore here</p>
+            <h1 class="title">My Experience</h1>
+        </div>
+        <div class="experience-details-containers">
+            <div class="about-container">
+
+                
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+
+                        <article>
+                            <img class="icon" src="images/checkmark.png" alt="Experience icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="images/checkmark.png" alt="Experience icon">
+                            <div>
+                                <h3>C Program</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="icon" src="images/checkmark.png" alt="Experience icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    
+                    <h2 class="experience-sub-title">Front-end Development</h2>
+                    <div class="article-container">
+
+                        <article>
+                            <img class="icon" src="images/checkmark.png" alt="Experience icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+
+
+                        <article>
+                            <img class="icon" src="images/checkmark.png" alt="Experience icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img class="icon scroll" src="images/scrollarrow.png" alt="scroll Icon" onclick="location.href='./#projects'">
+    </section>
+<!-- -----------project section------------- -->
+    <section id="projects">
+        <p class="section__text__p1">Explore my projects</p>
+        <h1 class="title">My Projects</h1>
+
+        <div class="experience-details-container">
+
+            <div class="project-details-container">
+                <div class="article-container">
+
+                        <img class="project-img" src="images/Project Scr 1.png" alt="First Project">
+                    
+                        <h2 class="project-title">Project 1: <br> Write Up webpage</h2>  
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gtihub.com/'">View on Github</button>
+                        <button class="Show-live btn btn-color-2" onclick="location.href='/Project 2/index.html'" >Live preview</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="project-details-container">
+                <div class="article-container">
+
+                        <img class="project-img" src="images/Project Scr 1.png" alt="First Project">
+                    
+                    <h2 class="project-title">Project 2: <br> Write Up webpage</h2> 
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gtihub.com/'">View on Github</button>
+                        <button class="Show-live btn btn-color-2" onclick="location.href='/Project 2/index.html'" >Live preview</button>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="project-details-container">
+                <div class="article-container">
+
+                        <img class="project-img" src="images/Project Scr 1.png" alt="First Project">
+                    
+                        <h2 class="project-title">Project 3: <br> Write Up webpage</h2> 
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://gtihub.com/'">View on Github</button>
+                        <button class="Show-live btn btn-color-2" onclick="location.href='/Project 2/index.html'" >Live preview</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <img class="icon scroll" src="images/scrollarrow.png" alt="scroll Icon" onclick="location.href='./#contact'">
+    </section>
+<!-- -----------contact section------------- -->
+    <section id="contact">
+
+        <P class="section__text__p1">Get in Touch</P>
+        <h1 class="title">Contact Us</h1>
+
+        <div class="contact-container">
+
+            <div class="contact-details-container">
+
+                <div class="contact-info-container">
+                    <img class="icon contact-icon" src="images/gmailIcon.png" alt="email icon">
+                    <p><a href="mailto:xyz@gmail.com">email</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img class="icon linked-icon" src="images/linkedIn.png" alt="email icon">
+                    <p><a href="www.linkedin.com">LinkedIn</a></p>
+                </div>
+
+            </div>
+            
+            <div class="write-box">
+                <label for="textarea">Leave a comment below:</label>
+                <textarea name="textarea" id="write-box" cols="180" rows="10"  placeholder="comment here"></textarea>
+                <button class="btn btn-color-2">submit</button>
+            </div>
+
+        </div>
+        
+        <img class="icon scroll" src="images/scrollarrow.png" alt="scroll Icon" onclick="location.href='./#desktop-nav'">
+        
+    
+    
+    </section>
+
+</body>
+
+</html>
